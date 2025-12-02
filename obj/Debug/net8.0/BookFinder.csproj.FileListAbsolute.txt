@@ -1,0 +1,14 @@
+C:\MSSA Code-github\Book_Finder_Lab\BookFinder\bin\Debug\net8.0\BookFinder.exe
+C:\MSSA Code-github\Book_Finder_Lab\BookFinder\bin\Debug\net8.0\BookFinder.deps.json
+C:\MSSA Code-github\Book_Finder_Lab\BookFinder\bin\Debug\net8.0\BookFinder.runtimeconfig.json
+C:\MSSA Code-github\Book_Finder_Lab\BookFinder\bin\Debug\net8.0\BookFinder.dll
+C:\MSSA Code-github\Book_Finder_Lab\BookFinder\bin\Debug\net8.0\BookFinder.pdb
+C:\MSSA Code-github\Book_Finder_Lab\BookFinder\obj\Debug\net8.0\BookFinder.GeneratedMSBuildEditorConfig.editorconfig
+C:\MSSA Code-github\Book_Finder_Lab\BookFinder\obj\Debug\net8.0\BookFinder.AssemblyInfoInputs.cache
+C:\MSSA Code-github\Book_Finder_Lab\BookFinder\obj\Debug\net8.0\BookFinder.AssemblyInfo.cs
+C:\MSSA Code-github\Book_Finder_Lab\BookFinder\obj\Debug\net8.0\BookFinder.csproj.CoreCompileInputs.cache
+C:\MSSA Code-github\Book_Finder_Lab\BookFinder\obj\Debug\net8.0\BookFinder.dll
+C:\MSSA Code-github\Book_Finder_Lab\BookFinder\obj\Debug\net8.0\refint\BookFinder.dll
+C:\MSSA Code-github\Book_Finder_Lab\BookFinder\obj\Debug\net8.0\BookFinder.pdb
+C:\MSSA Code-github\Book_Finder_Lab\BookFinder\obj\Debug\net8.0\BookFinder.genruntimeconfig.cache
+C:\MSSA Code-github\Book_Finder_Lab\BookFinder\obj\Debug\net8.0\ref\BookFinder.dll
