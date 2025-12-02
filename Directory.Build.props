@@ -1,6 +1,0 @@
-<Project>
-    <PropertyGroup>
-        <TargetFrameworkVersion>net8.0</TargetFrameworkVersion>
-        <Microsoft_Extensions_Hosting_Version>9.0.10</Microsoft_Extensions_Hosting_Version>
-    </PropertyGroup>
-</Project>

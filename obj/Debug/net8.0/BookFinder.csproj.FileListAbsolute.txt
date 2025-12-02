@@ -12,3 +12,4 @@ C:\MSSA Code-github\Book_Finder_Lab\BookFinder\obj\Debug\net8.0\refint\BookFinde
 C:\MSSA Code-github\Book_Finder_Lab\BookFinder\obj\Debug\net8.0\BookFinder.pdb
 C:\MSSA Code-github\Book_Finder_Lab\BookFinder\obj\Debug\net8.0\BookFinder.genruntimeconfig.cache
 C:\MSSA Code-github\Book_Finder_Lab\BookFinder\obj\Debug\net8.0\ref\BookFinder.dll
+C:\MSSA Code-github\Book_Finder_Lab\BookFinder\obj\Debug\net8.0\BookFinder.sourcelink.json
