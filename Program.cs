@@ -104,19 +104,19 @@ public class Program
 
         foreach (var item in myMovies)
         {
-            if (item is null)
+            if (item is null) continue;
             {
                 break; //or continue if you still want to keep iterating to the end of the array
             }
 
-            Console.WriteLine($"New Movie: {item.Title}");
+            Console.WriteLine($"New Movie: {movie.Title}");
         }
 
         foreach (var item in myBooks)
         {
             if (item is not null)
             {
-                Console.WriteLine($"New Book: {item.Title}");
+                Console.WriteLine($"New Book: {book.Title}");
             }
         }
 
@@ -172,7 +172,7 @@ public class Program
                     //Delete Book
                     DeleteBook(GetValueFromUser("Which Book Id would you like to delete?"));
                     break;
-                case 20:
+                case 5:
                     Console.WriteLine("Operation Cancelled");
                     break;
                 default:
@@ -200,7 +200,7 @@ public class Program
         if (!goodChoice)
         {
             Console.WriteLine("Please make sure to enter a valid number.");
-            PrintMenu();
+            return PrintMenu();
         }
         return choice;
     }

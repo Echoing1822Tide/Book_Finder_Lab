@@ -112,6 +112,7 @@ public class OutputHelpers
         return sb.ToString();
 
     }
+    
     //output a list to the console in a box
 
     //output a list to the console in a box with a header
