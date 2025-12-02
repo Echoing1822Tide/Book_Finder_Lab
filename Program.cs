@@ -10,7 +10,24 @@ namespace BookFinder
     {
         public int Id;
         public string Title;
+        public string Author;
+        public int CopyrightYear;
+        public string Description;
+        public int Rating;
+        public string Review;
+        public string ItemType;
     };
+
+    public class Movie
+    {
+        public string Title { get; set; }
+        public int CopyrightYear { get; set; }
+        public string Description { get; set; }
+        public int Rating { get; set; }
+        public string Review { get; set; }
+        public int RuntimeMinutes { get; set; }
+        public string ItemType { get; set; }
+    }
 
     class Program
     {
@@ -24,8 +41,68 @@ namespace BookFinder
             Console.WriteLine(new string('*', count));
         }
 
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            //var movie = new Movie[2];
+            //var book = new Book[2];
+
+
+            var m = new Movie();
+            m.Title = "Top Gun Maverick";
+            var m2 = new Movie();
+            m2.Title = "Batman (1989)";
+            var b = new Book();
+            b.Title = "Harry Potter and the Sorcerer's Stone";
+            var b2 = new Book();
+            b2.Title = "Harry Potter and the Chamber of Secrets";
+
+            Book[] myBooks = new Book[10];
+            Movie[] myMovies = new Movie[10];
+
+            var lotr = new Book();
+            lotr.Author = "J. R. R. Tolkein";
+            lotr.CopyrightYear = 1954;
+            lotr.Description = "In the first book in the LOTR trilogy, Frodo finds the ring.";
+            lotr.Rating = 4;
+            lotr.Review = "A little slow at first, but great overall story";
+            lotr.Title = "The Lord of the Rings: The Fellowship of the Ring";
+            lotr.ItemType = "Book";
+
+            //todo: practice adding another book here
+
+            var topGun = new Movie();
+            topGun.CopyrightYear = 1986;
+            topGun.Description = "Navy pilots learn to be the best of the best of the best.";
+            topGun.Rating = 5;
+            topGun.Review = "Highly enjoyable, must see movie!";
+            topGun.RuntimeMinutes = 120;
+            topGun.Title = "Top Gun";
+            topGun.ItemType = "Movie";
+
+            //todo: practice adding another movie here
+
+            //add items to collections
+            myBooks[0] = lotr;
+            myBooks [1] = b;
+            myBooks[2] = b2;
+            myMovies[0] = topGun;
+            myMovies [1] = m;
+            myMovies[2] = m2;
+
+            foreach (var book in myBooks)
+            {
+                if (!string.IsNullOrEmpty(book.Title))
+                {
+                    Console.WriteLine($"New Book: {book.Title}");
+                }
+            }
+            foreach (var movie in myMovies)
+            {
+                if (movie is not null)
+                {
+                    Console.WriteLine($"New Movie: {movie.Title}");
+                }
+            }
             Console.WriteLine("Welcome to the Book Inventory Manager!");
             bool runAgain = false;
 
