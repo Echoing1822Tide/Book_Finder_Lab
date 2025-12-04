@@ -224,6 +224,7 @@ public class Program
         else
         {
             Console.WriteLine("There are no books in inventory");
+            System.Threading.Thread.Sleep(2000);
         }
 
         PrintStars(80);
